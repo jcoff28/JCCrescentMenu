@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1738B13A1C248B8D00F99524 /* open_menu_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1738B1391C248B8D00F99524 /* open_menu_iphone.png */; };
+		1738B13C1C248BA700F99524 /* close_menu_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1738B13B1C248BA700F99524 /* close_menu_iphone.png */; };
 		17C208DC1C21F022004005FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C208DB1C21F022004005FC /* main.m */; };
 		17C208DF1C21F022004005FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C208DE1C21F022004005FC /* AppDelegate.m */; };
 		17C208E21C21F022004005FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C208E11C21F022004005FC /* ViewController.m */; };
@@ -15,6 +17,13 @@
 		17C208EA1C21F022004005FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C208E81C21F022004005FC /* LaunchScreen.storyboard */; };
 		17C208F51C21F022004005FC /* JCCrescentMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C208F41C21F022004005FC /* JCCrescentMenuTests.m */; };
 		17C209001C21F022004005FC /* JCCrescentMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C208FF1C21F022004005FC /* JCCrescentMenuUITests.m */; };
+		17C2090F1C21F077004005FC /* JCCrescentMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C2090E1C21F077004005FC /* JCCrescentMenu.m */; };
+		17E86DB61C3DFAA8008CA670 /* glyphicons-281-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E86DB51C3DFAA8008CA670 /* glyphicons-281-settings.png */; };
+		17E86DBC1C3DFAEC008CA670 /* glyphicons-101-font.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E86DB71C3DFAEC008CA670 /* glyphicons-101-font.png */; };
+		17E86DBD1C3DFAEC008CA670 /* glyphicons-102-italic.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E86DB81C3DFAEC008CA670 /* glyphicons-102-italic.png */; };
+		17E86DBE1C3DFAEC008CA670 /* glyphicons-103-bold.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E86DB91C3DFAEC008CA670 /* glyphicons-103-bold.png */; };
+		17E86DBF1C3DFAEC008CA670 /* glyphicons-104-text-underline.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E86DBA1C3DFAEC008CA670 /* glyphicons-104-text-underline.png */; };
+		17E86DC01C3DFAEC008CA670 /* glyphicons-105-text-strike.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E86DBB1C3DFAEC008CA670 /* glyphicons-105-text-strike.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1738B1391C248B8D00F99524 /* open_menu_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open_menu_iphone.png; sourceTree = "<group>"; };
+		1738B13B1C248BA700F99524 /* close_menu_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_menu_iphone.png; sourceTree = "<group>"; };
 		17C208D71C21F022004005FC /* JCCrescentMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCCrescentMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C208DB1C21F022004005FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17C208DD1C21F022004005FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,16 @@
 		17C208FB1C21F022004005FC /* JCCrescentMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCCrescentMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C208FF1C21F022004005FC /* JCCrescentMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCCrescentMenuUITests.m; sourceTree = "<group>"; };
 		17C209011C21F022004005FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C2090D1C21F077004005FC /* JCCrescentMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCrescentMenu.h; sourceTree = "<group>"; };
+		17C2090E1C21F077004005FC /* JCCrescentMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCrescentMenu.m; sourceTree = "<group>"; };
+		17C209101C21F171004005FC /* JCCrescentMenuDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCrescentMenuDelegate.h; sourceTree = "<group>"; };
+		17C209111C21F197004005FC /* JCCrescentMenuDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCrescentMenuDataSource.h; sourceTree = "<group>"; };
+		17E86DB51C3DFAA8008CA670 /* glyphicons-281-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-281-settings.png"; sourceTree = "<group>"; };
+		17E86DB71C3DFAEC008CA670 /* glyphicons-101-font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-101-font.png"; sourceTree = "<group>"; };
+		17E86DB81C3DFAEC008CA670 /* glyphicons-102-italic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-102-italic.png"; sourceTree = "<group>"; };
+		17E86DB91C3DFAEC008CA670 /* glyphicons-103-bold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-103-bold.png"; sourceTree = "<group>"; };
+		17E86DBA1C3DFAEC008CA670 /* glyphicons-104-text-underline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-104-text-underline.png"; sourceTree = "<group>"; };
+		17E86DBB1C3DFAEC008CA670 /* glyphicons-105-text-strike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-105-text-strike.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +99,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1738B13D1C248BB100F99524 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				17E86DB71C3DFAEC008CA670 /* glyphicons-101-font.png */,
+				17E86DB81C3DFAEC008CA670 /* glyphicons-102-italic.png */,
+				17E86DB91C3DFAEC008CA670 /* glyphicons-103-bold.png */,
+				17E86DBA1C3DFAEC008CA670 /* glyphicons-104-text-underline.png */,
+				17E86DBB1C3DFAEC008CA670 /* glyphicons-105-text-strike.png */,
+				17E86DB51C3DFAA8008CA670 /* glyphicons-281-settings.png */,
+				1738B13B1C248BA700F99524 /* close_menu_iphone.png */,
+				1738B1391C248B8D00F99524 /* open_menu_iphone.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		17C208CE1C21F022004005FC = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +137,10 @@
 		17C208D91C21F022004005FC /* JCCrescentMenu */ = {
 			isa = PBXGroup;
 			children = (
+				17C2090D1C21F077004005FC /* JCCrescentMenu.h */,
+				17C2090E1C21F077004005FC /* JCCrescentMenu.m */,
+				17C209101C21F171004005FC /* JCCrescentMenuDelegate.h */,
+				17C209111C21F197004005FC /* JCCrescentMenuDataSource.h */,
 				17C208DD1C21F022004005FC /* AppDelegate.h */,
 				17C208DE1C21F022004005FC /* AppDelegate.m */,
 				17C208E01C21F022004005FC /* ViewController.h */,
@@ -109,6 +149,7 @@
 				17C208E61C21F022004005FC /* Assets.xcassets */,
 				17C208E81C21F022004005FC /* LaunchScreen.storyboard */,
 				17C208EB1C21F022004005FC /* Info.plist */,
+				1738B13D1C248BB100F99524 /* Images */,
 				17C208DA1C21F022004005FC /* Supporting Files */,
 			);
 			path = JCCrescentMenu;
@@ -244,8 +285,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				17C208EA1C21F022004005FC /* LaunchScreen.storyboard in Resources */,
+				17E86DBF1C3DFAEC008CA670 /* glyphicons-104-text-underline.png in Resources */,
+				17E86DC01C3DFAEC008CA670 /* glyphicons-105-text-strike.png in Resources */,
 				17C208E71C21F022004005FC /* Assets.xcassets in Resources */,
+				17E86DBC1C3DFAEC008CA670 /* glyphicons-101-font.png in Resources */,
 				17C208E51C21F022004005FC /* Main.storyboard in Resources */,
+				1738B13A1C248B8D00F99524 /* open_menu_iphone.png in Resources */,
+				17E86DBE1C3DFAEC008CA670 /* glyphicons-103-bold.png in Resources */,
+				17E86DB61C3DFAA8008CA670 /* glyphicons-281-settings.png in Resources */,
+				1738B13C1C248BA700F99524 /* close_menu_iphone.png in Resources */,
+				17E86DBD1C3DFAEC008CA670 /* glyphicons-102-italic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17C2090F1C21F077004005FC /* JCCrescentMenu.m in Sources */,
 				17C208E21C21F022004005FC /* ViewController.m in Sources */,
 				17C208DF1C21F022004005FC /* AppDelegate.m in Sources */,
 				17C208DC1C21F022004005FC /* main.m in Sources */,
@@ -498,6 +548,7 @@
 				17C209061C21F022004005FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17C209071C21F022004005FC /* Build configuration list for PBXNativeTarget "JCCrescentMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +557,7 @@
 				17C209091C21F022004005FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17C2090A1C21F022004005FC /* Build configuration list for PBXNativeTarget "JCCrescentMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +566,7 @@
 				17C2090C1C21F022004005FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
