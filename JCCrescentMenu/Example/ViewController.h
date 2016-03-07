@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "JCCrescentMenu.h"
+
 @interface ViewController : UIViewController <JCCrescentMenuDataSource, JCCrescentMenuDelegate>
 
 @property (strong, nonatomic) IBOutlet JCCrescentMenu *crescentMenu;
