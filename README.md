@@ -13,7 +13,7 @@ JCCrescentMenu is a flexible, simple, and beautiful menu. It has a minimal footp
 
 ![Gif of menu closing](JCCrescentMenu/Example/Images/JCCrescentMenuClose.gif)
 
-![Picture of menus open on all corners](JCCrescentMenu/Example/Images/JCCrescentMenuAllOpen.ttif)
+![Picture of menus open on all corners](JCCrescentMenu/Example/Images/JCCrescentMenuAllOpen.tiff)
 
 
 Usage
