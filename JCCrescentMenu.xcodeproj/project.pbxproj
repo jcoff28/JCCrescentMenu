@@ -23,6 +23,15 @@
 		172D1CC61C8D003A0066E92B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CB81C8D003A0066E92B /* Info.plist */; };
 		172D1CC71C8D003A0066E92B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 172D1CB91C8D003A0066E92B /* main.m */; };
 		172D1CC81C8D003A0066E92B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 172D1CBB1C8D003A0066E92B /* ViewController.m */; };
+		172D1CD61C8D18CA0066E92B /* glyphicons-563-person-walking.png in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CD51C8D18CA0066E92B /* glyphicons-563-person-walking.png */; };
+		172D1CD81C8D18DA0066E92B /* glyphicons-569-taxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CD71C8D18DA0066E92B /* glyphicons-569-taxi.png */; };
+		172D1CDA1C8D19080066E92B /* glyphicons-39-plane.png in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CD91C8D19080066E92B /* glyphicons-39-plane.png */; };
+		172D1CDC1C8D191C0066E92B /* glyphicons-32-bus.png in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CDB1C8D191C0066E92B /* glyphicons-32-bus.png */; };
+		172D1CDE1C8D194F0066E92B /* glyphicons-307-bicycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CDD1C8D194F0066E92B /* glyphicons-307-bicycle.png */; };
+		172D1CE01C8D196E0066E92B /* glyphicons-775-directions.png in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CDF1C8D196E0066E92B /* glyphicons-775-directions.png */; };
+		172D1CE41C8DEEC10066E92B /* JCCrescentMenuAllOpen.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CE11C8DEEC10066E92B /* JCCrescentMenuAllOpen.tiff */; };
+		172D1CE51C8DEEC10066E92B /* JCCrescentMenuClose.gif in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CE21C8DEEC10066E92B /* JCCrescentMenuClose.gif */; };
+		172D1CE61C8DEEC10066E92B /* JCCrescentMenuOpen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CE31C8DEEC10066E92B /* JCCrescentMenuOpen.gif */; };
 		17C208F51C21F022004005FC /* JCCrescentMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C208F41C21F022004005FC /* JCCrescentMenuTests.m */; };
 		17C209001C21F022004005FC /* JCCrescentMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C208FF1C21F022004005FC /* JCCrescentMenuUITests.m */; };
 /* End PBXBuildFile section */
@@ -64,6 +73,15 @@
 		172D1CB91C8D003A0066E92B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		172D1CBA1C8D003A0066E92B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		172D1CBB1C8D003A0066E92B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		172D1CD51C8D18CA0066E92B /* glyphicons-563-person-walking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-563-person-walking.png"; sourceTree = "<group>"; };
+		172D1CD71C8D18DA0066E92B /* glyphicons-569-taxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-569-taxi.png"; sourceTree = "<group>"; };
+		172D1CD91C8D19080066E92B /* glyphicons-39-plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-39-plane.png"; sourceTree = "<group>"; };
+		172D1CDB1C8D191C0066E92B /* glyphicons-32-bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-32-bus.png"; sourceTree = "<group>"; };
+		172D1CDD1C8D194F0066E92B /* glyphicons-307-bicycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-307-bicycle.png"; sourceTree = "<group>"; };
+		172D1CDF1C8D196E0066E92B /* glyphicons-775-directions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-775-directions.png"; sourceTree = "<group>"; };
+		172D1CE11C8DEEC10066E92B /* JCCrescentMenuAllOpen.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = JCCrescentMenuAllOpen.tiff; sourceTree = "<group>"; };
+		172D1CE21C8DEEC10066E92B /* JCCrescentMenuClose.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = JCCrescentMenuClose.gif; sourceTree = "<group>"; };
+		172D1CE31C8DEEC10066E92B /* JCCrescentMenuOpen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = JCCrescentMenuOpen.gif; sourceTree = "<group>"; };
 		17C208D71C21F022004005FC /* JCCrescentMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCCrescentMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C208F01C21F022004005FC /* JCCrescentMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCCrescentMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C208F41C21F022004005FC /* JCCrescentMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCCrescentMenuTests.m; sourceTree = "<group>"; };
@@ -129,6 +147,15 @@
 		172D1CB11C8D003A0066E92B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				172D1CE11C8DEEC10066E92B /* JCCrescentMenuAllOpen.tiff */,
+				172D1CE21C8DEEC10066E92B /* JCCrescentMenuClose.gif */,
+				172D1CE31C8DEEC10066E92B /* JCCrescentMenuOpen.gif */,
+				172D1CD51C8D18CA0066E92B /* glyphicons-563-person-walking.png */,
+				172D1CD71C8D18DA0066E92B /* glyphicons-569-taxi.png */,
+				172D1CD91C8D19080066E92B /* glyphicons-39-plane.png */,
+				172D1CDB1C8D191C0066E92B /* glyphicons-32-bus.png */,
+				172D1CDD1C8D194F0066E92B /* glyphicons-307-bicycle.png */,
+				172D1CDF1C8D196E0066E92B /* glyphicons-775-directions.png */,
 				172D1CB21C8D003A0066E92B /* glyphicons-101-font.png */,
 				172D1CB31C8D003A0066E92B /* glyphicons-102-italic.png */,
 				172D1CB41C8D003A0066E92B /* glyphicons-103-bold.png */,
@@ -289,17 +316,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				172D1CDA1C8D19080066E92B /* glyphicons-39-plane.png in Resources */,
+				172D1CE01C8D196E0066E92B /* glyphicons-775-directions.png in Resources */,
 				172D1CA61C8D00200066E92B /* close_menu_iphone.png in Resources */,
 				172D1CC21C8D003A0066E92B /* glyphicons-103-bold.png in Resources */,
 				172D1CC51C8D003A0066E92B /* glyphicons-281-settings.png in Resources */,
 				172D1CC01C8D003A0066E92B /* glyphicons-101-font.png in Resources */,
 				172D1CC41C8D003A0066E92B /* glyphicons-105-text-strike.png in Resources */,
 				172D1CBF1C8D003A0066E92B /* Main.storyboard in Resources */,
+				172D1CDE1C8D194F0066E92B /* glyphicons-307-bicycle.png in Resources */,
 				172D1CC11C8D003A0066E92B /* glyphicons-102-italic.png in Resources */,
+				172D1CE41C8DEEC10066E92B /* JCCrescentMenuAllOpen.tiff in Resources */,
+				172D1CD61C8D18CA0066E92B /* glyphicons-563-person-walking.png in Resources */,
+				172D1CDC1C8D191C0066E92B /* glyphicons-32-bus.png in Resources */,
 				172D1CC31C8D003A0066E92B /* glyphicons-104-text-underline.png in Resources */,
 				172D1CC61C8D003A0066E92B /* Info.plist in Resources */,
+				172D1CE61C8DEEC10066E92B /* JCCrescentMenuOpen.gif in Resources */,
 				172D1CBE1C8D003A0066E92B /* LaunchScreen.storyboard in Resources */,
+				172D1CD81C8D18DA0066E92B /* glyphicons-569-taxi.png in Resources */,
 				172D1CBD1C8D003A0066E92B /* Assets.xcassets in Resources */,
+				172D1CE51C8DEEC10066E92B /* JCCrescentMenuClose.gif in Resources */,
 				172D1CA81C8D00200066E92B /* open_menu_iphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

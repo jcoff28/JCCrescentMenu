@@ -11,7 +11,7 @@
 
 @interface ViewController : UIViewController <JCCrescentMenuDataSource, JCCrescentMenuDelegate>
 
-@property (strong, nonatomic) IBOutlet JCCrescentMenu *crescentMenu;
+@property (strong, nonatomic) IBOutlet JCCrescentMenu *br;
 
 @property (strong, nonatomic) IBOutlet JCCrescentMenu * tr;
 
