@@ -469,7 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = JCCrescentMenu/Info.plist;
+				INFOPLIST_FILE = JCCrescentMenu/Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jordan-Coff.JCCrescentMenu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -480,7 +480,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = JCCrescentMenu/Info.plist;
+				INFOPLIST_FILE = JCCrescentMenu/Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jordan-Coff.JCCrescentMenu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
