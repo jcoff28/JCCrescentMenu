@@ -20,7 +20,6 @@
 		172D1CC31C8D003A0066E92B /* glyphicons-104-text-underline.png in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CB51C8D003A0066E92B /* glyphicons-104-text-underline.png */; };
 		172D1CC41C8D003A0066E92B /* glyphicons-105-text-strike.png in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CB61C8D003A0066E92B /* glyphicons-105-text-strike.png */; };
 		172D1CC51C8D003A0066E92B /* glyphicons-281-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CB71C8D003A0066E92B /* glyphicons-281-settings.png */; };
-		172D1CC61C8D003A0066E92B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CB81C8D003A0066E92B /* Info.plist */; };
 		172D1CC71C8D003A0066E92B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 172D1CB91C8D003A0066E92B /* main.m */; };
 		172D1CC81C8D003A0066E92B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 172D1CBB1C8D003A0066E92B /* ViewController.m */; };
 		172D1CD61C8D18CA0066E92B /* glyphicons-563-person-walking.png in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CD51C8D18CA0066E92B /* glyphicons-563-person-walking.png */; };
@@ -32,6 +31,7 @@
 		172D1CE51C8DEEC10066E92B /* JCCrescentMenuClose.gif in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CE21C8DEEC10066E92B /* JCCrescentMenuClose.gif */; };
 		172D1CE61C8DEEC10066E92B /* JCCrescentMenuOpen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CE31C8DEEC10066E92B /* JCCrescentMenuOpen.gif */; };
 		172D1CE81C8E049D0066E92B /* JCCrescentMenuAllOpen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 172D1CE71C8E049D0066E92B /* JCCrescentMenuAllOpen.jpg */; };
+		176E8A621C8E54F10078A4DC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 176E8A611C8E54F10078A4DC /* README.md */; };
 		17C208F51C21F022004005FC /* JCCrescentMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C208F41C21F022004005FC /* JCCrescentMenuTests.m */; };
 		17C209001C21F022004005FC /* JCCrescentMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C208FF1C21F022004005FC /* JCCrescentMenuUITests.m */; };
 /* End PBXBuildFile section */
@@ -82,6 +82,7 @@
 		172D1CE21C8DEEC10066E92B /* JCCrescentMenuClose.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = JCCrescentMenuClose.gif; sourceTree = "<group>"; };
 		172D1CE31C8DEEC10066E92B /* JCCrescentMenuOpen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = JCCrescentMenuOpen.gif; sourceTree = "<group>"; };
 		172D1CE71C8E049D0066E92B /* JCCrescentMenuAllOpen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JCCrescentMenuAllOpen.jpg; sourceTree = "<group>"; };
+		176E8A611C8E54F10078A4DC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		17C208D71C21F022004005FC /* JCCrescentMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCCrescentMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C208F01C21F022004005FC /* JCCrescentMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCCrescentMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C208F41C21F022004005FC /* JCCrescentMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCCrescentMenuTests.m; sourceTree = "<group>"; };
@@ -169,6 +170,7 @@
 		17C208CE1C21F022004005FC = {
 			isa = PBXGroup;
 			children = (
+				176E8A611C8E54F10078A4DC /* README.md */,
 				17C208D91C21F022004005FC /* JCCrescentMenu */,
 				17C208F31C21F022004005FC /* JCCrescentMenuTests */,
 				17C208FE1C21F022004005FC /* JCCrescentMenuUITests */,
@@ -275,7 +277,7 @@
 		17C208CF1C21F022004005FC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Jordan Coff";
 				TargetAttributes = {
 					17C208D61C21F022004005FC = {
@@ -330,7 +332,6 @@
 				172D1CD61C8D18CA0066E92B /* glyphicons-563-person-walking.png in Resources */,
 				172D1CDC1C8D191C0066E92B /* glyphicons-32-bus.png in Resources */,
 				172D1CC31C8D003A0066E92B /* glyphicons-104-text-underline.png in Resources */,
-				172D1CC61C8D003A0066E92B /* Info.plist in Resources */,
 				172D1CE61C8DEEC10066E92B /* JCCrescentMenuOpen.gif in Resources */,
 				172D1CBE1C8D003A0066E92B /* LaunchScreen.storyboard in Resources */,
 				172D1CD81C8D18DA0066E92B /* glyphicons-569-taxi.png in Resources */,
@@ -363,6 +364,7 @@
 			files = (
 				172D1CBC1C8D003A0066E92B /* AppDelegate.m in Sources */,
 				172D1CC71C8D003A0066E92B /* main.m in Sources */,
+				176E8A621C8E54F10078A4DC /* README.md in Sources */,
 				172D1CC81C8D003A0066E92B /* ViewController.m in Sources */,
 				172D1CA71C8D00200066E92B /* JCCrescentMenu.m in Sources */,
 			);
